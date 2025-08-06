@@ -23,11 +23,11 @@ export function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F16da0115ff824d91bff37d99c07438dc%2Fbc4af7757e7e4895aa9688a11794de4c"
               alt="Adora Logo"
-              className="h-18 w-auto object-contain"
+              className="h-14 sm:h-16 w-auto object-contain max-w-[200px] py-2"
             />
           </Link>
 
