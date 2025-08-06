@@ -27,7 +27,7 @@ export function Navigation() {
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F16da0115ff824d91bff37d99c07438dc%2Fbc4af7757e7e4895aa9688a11794de4c"
               alt="Adora Logo"
-              className="h-10 sm:h-12 md:h-[50px] w-auto object-contain max-h-[50px] my-[5px] mx-[10px] max-w-[250px]"
+              className="h-15 w-auto object-contain my-[5px] mx-[10px] max-w-[250px]"
             />
           </Link>
 
