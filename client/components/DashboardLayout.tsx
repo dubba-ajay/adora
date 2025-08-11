@@ -230,11 +230,11 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
                 <Bell className="h-5 w-5" />
               </Button>
               <div className="flex items-center space-x-3">
-                <Avatar className="w-8 h-8">
-                  <AvatarFallback className="bg-primary text-white text-sm">
-                    A
-                  </AvatarFallback>
-                </Avatar>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F16da0115ff824d91bff37d99c07438dc%2Fbc4af7757e7e4895aa9688a11794de4c"
+                  alt="Adora Logo"
+                  className="h-8 w-8 rounded-full object-contain border border-border"
+                />
                 <div className="hidden md:block">
                   <div className="text-sm font-medium text-foreground">
                     Ajju
