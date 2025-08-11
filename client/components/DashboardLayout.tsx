@@ -144,12 +144,11 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
           {/* Sidebar Header */}
           <div className="flex items-center justify-between h-16 px-6 border-b border-border">
             <Link to="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-brand-orange-500 to-brand-blue-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">A</span>
-              </div>
-              <span className="font-bold text-xl text-foreground">
-                Adora
-              </span>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F16da0115ff824d91bff37d99c07438dc%2Fbc4af7757e7e4895aa9688a11794de4c"
+                alt="Adora Logo"
+                className="h-8 w-auto object-contain"
+              />
             </Link>
             <Button
               variant="ghost"
