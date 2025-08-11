@@ -233,7 +233,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F16da0115ff824d91bff37d99c07438dc%2Fbc4af7757e7e4895aa9688a11794de4c"
                   alt="Adora Logo"
-                  className="h-15 w-15 rounded-full object-contain border border-border"
+                  className="h-14 w-14 rounded-full object-contain border border-border"
                 />
                 <div className="hidden md:block">
                   <div className="text-sm font-medium text-foreground">
